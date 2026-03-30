@@ -1,92 +1,43 @@
-# SignalHarbor ⚓
+# SignalHarbor
 
-**Your Harbor for Market Signals**
-
-Reddit-powered business intelligence for tech and entertainment companies.
-
-[Visit signalharbor.org](https://signalharbor.org)
+**Automated data intelligence for complex markets.**
 
 ---
 
-## What is SignalHarbor?
+## What This Is
 
-SignalHarbor scrapes Reddit, news, finance, and social platforms to deliver actionable business intelligence. We help companies:
-
-- Track competitor moves in real-time
-- Monitor brand sentiment across platforms
-- Identify market gaps and emerging trends
-- Audit creator/analytics revenue discrepancies
-- Build custom data pipelines
+SignalHarbor builds automated data analysis systems. We collect data from multiple sources, run machine learning analysis, and deliver actionable outputs.
 
 ---
 
-## Services
+## Capabilities
 
-| Service | Description |
-|---------|-------------|
-| Market Intelligence | Competitor tracking, trend detection, gap analysis |
-| Social Sentiment | Reddit + Twitter + Discord monitoring |
-| Creator Analytics | Cross-platform royalty auditing, fan engagement |
-| Custom Data Pipes | Bespoke scraping and API integration |
-| AI Insights | Automated reports, anomaly detection |
-| BI Dashboards | Looker Studio, Power BI, Slack alerts |
+| Area | What We Do |
+|------|------------|
+| **Data Collection** | Multi-source scrapers: market data, social sentiment, options flow, macro indicators |
+| **ML Analysis** | Ensemble models for pattern recognition, forecasting, and regime detection |
+| **Automation** | Scheduled runs, auto-refreshing dashboards, Excel/JSON outputs |
+| **Custom Systems** | Bespoke pipelines for your specific domain |
 
 ---
 
-## Pricing
+## Technology
 
-| Plan | Price | Best For |
-|------|-------|----------|
-| Starter | $99/mo | Small teams, basic monitoring |
-| Professional | $299/mo | Growing companies, real-time alerts |
-| Enterprise | Custom | Large orgs, full API access |
-
-All plans include 14-day free trial.
-
----
-
-## Local Development
-
-```bash
-# Clone the repo
-git clone https://github.com/chazhyseni/signalharbor.git
-cd signalharbor
-
-# Open index.html in your browser
-open index.html
-```
-
-No build step required - it's a static HTML site.
-
----
-
-## Deployment
-
-This site is hosted on GitHub Pages with a custom domain.
-
-1. Push to `main` branch
-2. GitHub Pages automatically deploys
-3. DNS managed at domain registrar
-
----
-
-## Tech Stack
-
-- Pure HTML/CSS/JavaScript (no framework)
-- Inter font (Google Fonts)
-- Hosted on GitHub Pages
-- Domain: signalharbor.org
+- **Stack**: Python-based data pipelines and ML systems
+- **Data Sources**: Market data APIs, social platforms, news services, economic data providers
+- **Models**: Temporal forecasting, change point detection, state classification, ensemble fusion
+- **Outputs**: HTML dashboards, Excel reports, JSON APIs, logging/audit trails
 
 ---
 
 ## Contact
 
-- Email: hello@signalharbor.org
-- Twitter: [@signalharbor](https://twitter.com/signalharbor)
-- LinkedIn: [SignalHarbor](https://linkedin.com/company/signalharbor)
+**Email:** chaz.hyseni@gmail.com
+
+**GitHub:** [@chazhyseni](https://github.com/chazhyseni)
 
 ---
 
 ## License
 
-MIT - See [LICENSE](LICENSE) file
+MIT
