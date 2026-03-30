@@ -1,0 +1,300 @@
+# Smart Combo Names for Data Analytics + AI
+
+## Signal + X
+signalflow.io - Signal + flow of data
+signalpath.io - Path to insights
+signalcore.io - Core signals
+signaledge.io - Cutting edge signals
+signalwise.io - Wise about signals
+signalcraft.io - Crafted signals
+signalforge.io - Forging signals
+signalworks.io - Signals that work
+signalhub.io - Hub for signals
+signalops.io - Signal operations
+signallens.io - Lens for signals
+signalscope.io - Scope for signals
+signalbase.io - Base for signals
+signalvault.io - Vault of signals
+signalgrid.io - Grid of signals
+signalnet.io - Network of signals
+signalmind.io - Mind for signals
+signalguide.io - Guide through signals
+
+## Data + X
+dataflow.io - Flow of data
+datapath.io - Path through data
+datacore.io - Core data
+dataedge.io - Edge in data
+datawise.io - Wise with data
+datacraft.io - Crafted from data
+dataforge.io - Forging data
+dataworks.io - Data that works
+datahub.io - Hub for data
+dataops.io - Data operations
+datalens.io - Lens for data
+datascope.io - Scope for data
+databay.io - Bay of data
+datalight.io - Light on data
+datatrue.io - True data
+datadeep.io - Deep data
+datasharp.io - Sharp data
+dataclear.io - Clear data
+
+## Insight + X
+insightflow.io - Flow of insights
+insightpath.io - Path to insights
+insightcore.io - Core insights
+insightedge.io - Edge from insights
+insightwise.io - Wise insights
+insightcraft.io - Crafted insights
+insightforge.io - Forging insights
+insightworks.io - Insights that work
+insighthub.io - Hub for insights
+insightops.io - Insight operations
+insightlens.io - Lens for insights
+insightscope.io - Scope for insights
+insightbay.io - Bay of insights
+insightlight.io - Light of insights
+insightdeep.io - Deep insights
+insightsharp.io - Sharp insights
+insightclear.io - Clear insights
+insighttrue.io - True insights
+
+## Metric + X
+metricflow.io - Flow of metrics
+metricpath.io - Path of metrics
+metriccore.io - Core metrics
+metricedge.io - Edge from metrics
+metricwise.io - Wise metrics
+metriccraft.io - Crafted metrics
+metricforge.io - Forging metrics
+metricworks.io - Metrics that work
+metrichub.io - Hub for metrics
+metricops.io - Metric operations
+metriclens.io - Lens for metrics
+metricscope.io - Scope for metrics
+metricbay.io - Bay of metrics
+metriclight.io - Light of metrics
+metricdeep.io - Deep metrics
+metricsharp.io - Sharp metrics
+metricclear.io - Clear metrics
+metrictrue.io - True metrics
+
+## Pulse + X
+pulseflow.io - Flow of pulses
+pulsepath.io - Path of pulses
+pulsecore.io - Core pulse
+pulseedge.io - Edge from pulse
+pulsewise.io - Wise pulse
+pulsecraft.io - Crafted pulse
+pulseforge.io - Forging pulse
+pulseworks.io - Pulse works
+pulsehub.io - Hub for pulse
+pulseops.io - Pulse operations
+pulselens.io - Lens for pulse
+pulsescope.io - Scope for pulse
+pulsebay.io - Bay of pulse
+pulselight.io - Light of pulse
+pulsedeep.io - Deep pulse
+pulsesharp.io - Sharp pulse
+pulseclear.io - Clear pulse
+pulsetrue.io - True pulse
+
+## Scout + X
+scoutflow.io - Flow of scouting
+scoutpath.io - Path of scouting
+scoutcore.io - Core scout
+scoutedge.io - Edge from scouting
+scoutwise.io - Wise scout
+scoutcraft.io - Crafted scout
+scoutforge.io - Forging scout
+scoutworks.io - Scout works
+scouthub.io - Hub for scout
+scoutops.io - Scout operations
+scoutlens.io - Lens for scout
+scoutscope.io - Scope for scout
+scoutbay.io - Bay of scout
+scoutlight.io - Light of scout
+scoutdeep.io - Deep scout
+scoutsharp.io - Sharp scout
+scoutclear.io - Clear scout
+scouttrue.io - True scout
+
+## Trend + X
+trendflow.io - Flow of trends
+trendpath.io - Path of trends
+trendcore.io - Core trends
+trendedge.io - Edge from trends
+trendwise.io - Wise trends
+trendcraft.io - Crafted trends
+trendforge.io - Forging trends
+trendworks.io - Trends work
+trendhub.io - Hub for trends
+trendops.io - Trend operations
+trendlens.io - Lens for trends
+trendscope.io - Scope for trends
+trendbay.io - Bay of trends
+trendlight.io - Light of trends
+trenddeep.io - Deep trends
+trendsharp.io - Sharp trends
+trendclear.io - Clear trends
+trendtrue.io - True trends
+
+## Logic + X
+logicflow.io - Flow of logic
+logicpath.io - Path of logic
+logiccore.io - Core logic
+logicedge.io - Edge from logic
+logicwise.io - Wise logic
+logiccraft.io - Crafted logic
+logicforge.io - Forging logic
+logicworks.io - Logic works
+logichub.io - Hub for logic
+logicops.io - Logic operations
+logiclens.io - Lens for logic
+logicscope.io - Scope for logic
+logicbay.io - Bay of logic
+logiclight.io - Light of logic
+logicdeep.io - Deep logic
+logicsharp.io - Sharp logic
+logicclear.io - Clear logic
+logictrue.io - True logic
+
+## Core Combos (Most Likely Available + Descriptive)
+redmetrics.io - Reddit + metrics
+redsignals.io - Reddit + signals
+redinsights.io - Reddit + insights
+redpulse.io - Reddit + pulse
+redlogic.io - Reddit + logic
+redscope.io - Reddit + scope
+redlens.io - Reddit + lens
+redflow.io - Reddit + flow
+
+trueSignals.io - True signals
+clearsignals.io - Clear signals
+sharpsignals.io - Sharp signals
+deepsignals.io - Deep signals
+
+truemetrics.io - True metrics
+clearmetrics.io - Clear metrics
+sharpmetrics.io - Sharp metrics
+deepmetrics.io - Deep metrics
+
+trueinsights.io - True insights
+clearinsights.io - Clear insights
+sharpinsights.io - Sharp insights
+deepinsights.io - Deep insights
+
+## Best Bets (My Top Picks)
+signalharbor.io - Safe harbor for signals
+signalbay.io - Bay of signals
+insightharbor.io - Harbor of insights
+insightbay.io - Bay of insights
+dataharbor.io - Harbor of data
+databay.io - Bay of data
+metricharbor.io - Harbor of metrics
+metricbay.io - Bay of metrics
+pulseharbor.io - Harbor of pulse
+pulsebay.io - Bay of pulse
+scoutharbor.io - Harbor for scouts
+scoutbay.io - Bay of scouts
+trendharbor.io - Harbor of trends
+trendbay.io - Bay of trends
+logicharbor.io - Harbor of logic
+logicbay.io - Bay of logic
+
+## Even More Unique
+signalreach.io - Reach of signals
+signalpath.io - Path to signals
+signalfound.io - Signals found
+signalseek.io - Seek signals
+signalmine.io - Mine signals
+signalextract.io - Extract signals
+signalprocess.io - Process signals
+signalanalyze.io - Analyze signals
+
+datareach.io - Reach of data
+datapath.io - Path through data
+datafound.io - Data found
+dataseek.io - Seek data
+datamine.io - Mine data
+dataextract.io - Extract data
+dataprocess.io - Process data
+dataanalyze.io - Analyze data
+
+insightreach.io - Reach of insights
+insightpath.io - Path to insights
+insightfound.io - Insights found
+insightseek.io - Seek insights
+insightmine.io - Mine insights
+insightextract.io - Extract insights
+insightprocess.io - Process insights
+insightanalyze.io - Analyze insights
+
+## Compound Words (Single Word Feel)
+signalwise.io
+datawise.io
+insightwise.io
+metricwise.io
+pulsewise.io
+scoutwise.io
+trendwise.io
+logicwise.io
+
+signalmind.io
+datamind.io
+insightmind.io
+metricmind.io
+pulsemind.io
+scoutmind.io
+trendmind.io
+logicmind.io
+
+signalcraft.io
+datacraft.io
+insightcraft.io
+metriccraft.io
+pulsecraft.io
+scoutcraft.io
+trendcraft.io
+logiccraft.io
+
+signalforge.io
+dataforge.io
+insightforge.io
+metricforge.io
+pulseforge.io
+scoutforge.io
+trendforge.io
+logicforge.io
+
+signalworks.io
+dataworks.io
+insightworks.io
+metricworks.io
+pulseworks.io
+scoutworks.io
+trendworks.io
+logicworks.io
+
+## My Absolute Top 20 (Check These First)
+1. signalharbor.io
+2. insightbay.io
+3. redmetrics.io
+4. signalcraft.io
+5. dataforge.io
+6. insightworks.io
+7. pulseharbor.io
+8. scoutbay.io
+9. trendcraft.io
+10. logicharbor.io
+11. signalreach.io
+12. datafound.io
+13. insightpath.io
+14. metricwise.io
+15. signalmine.io
+16. redpulse.io
+17. clearsignals.io
+18. truemetrics.io
+19. deepinsights.io
+20. sharpdata.io
