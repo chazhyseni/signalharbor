@@ -32,7 +32,7 @@ SignalHarbor builds automated data analysis systems. We collect data from multip
 
 ## Contact
 
-**Email:** chaz.hyseni@gmail.com
+**Email:** chaz@signalharbor.org
 
 **GitHub:** [@chazhyseni](https://github.com/chazhyseni)
 
