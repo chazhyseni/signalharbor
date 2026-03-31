@@ -409,23 +409,23 @@
         .demo-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .demo-table thead th {
             background: var(--bg-tertiary);
-            padding: 12px 8px;
+            padding: 10px 6px;
             text-align: center;
             color: var(--text-muted);
             font-weight: 600;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             border-bottom: 1px solid var(--border-color);
         }
 
         .demo-table tbody td {
-            padding: 12px 8px;
+            padding: 10px 6px;
             text-align: center;
             border-bottom: 1px solid var(--border-color);
             color: var(--text-secondary);
@@ -439,14 +439,24 @@
 
         .demo-table .ticker span {
             display: block;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
             font-weight: 400;
-            margin-top: 2px;
+            margin-top: 3px;
         }
 
-        .demo-table .score-high { color: var(--success); font-weight: 700; }
-        .demo-table .score-med { color: var(--warning); font-weight: 600; }
+        .demo-table .score-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .demo-table .score-high { color: var(--success); }
+        .demo-table .score-med { color: var(--warning); }
         .demo-table .score-low { color: var(--text-muted); }
 
         .demo-table .signal-buy {
@@ -454,7 +464,16 @@
             color: var(--success);
             padding: 4px 10px;
             border-radius: 4px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .demo-table .signal-sell {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--danger);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
             font-weight: 600;
         }
 
@@ -463,8 +482,14 @@
             color: var(--warning);
             padding: 4px 10px;
             border-radius: 4px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 600;
+        }
+
+        /* Gauge SVG styles */
+        .gauge-svg {
+            display: inline-block;
+            vertical-align: middle;
         }
 
         .demo-note {
@@ -721,12 +746,14 @@
                     <table class="demo-table">
                         <thead>
                             <tr>
-                                <th>Rank</th>
+                                <th>#</th>
                                 <th>Stock</th>
-                                <th>Price</th>
-                                <th>Score</th>
+                                <th>Gauge</th>
                                 <th>Signal</th>
+                                <th>Price</th>
+                                <th>1D%</th>
                                 <th>Squeeze%</th>
+                                <th>Peak%</th>
                                 <th>Vol×</th>
                                 <th>Short%</th>
                                 <th>RSI</th>
@@ -734,74 +761,114 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="rank-cell">1</td>
+                                <td>1</td>
+                                <td class="ticker">
+                                    POLA
+                                    <span>Polar Power, Inc.</span>
+                                </td>
+                                <td>
+                                    <svg class="gauge-svg" width="60" height="40" viewBox="0 0 70 45">
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-dasharray="65.7 19.1"/>
+                                        <text x="35.0" y="31.0" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#10b981">78</text>
+                                    </svg>
+                                </td>
+                                <td><span class="signal-sell">STRONG SELL</span></td>
+                                <td>$1.95</td>
+                                <td style="color: var(--success)">+0.0%</td>
+                                <td class="score-med">25%</td>
+                                <td class="score-high">31%</td>
+                                <td>8.5×</td>
+                                <td>53%</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="ticker">
+                                    SPCE
+                                    <span>Virgin Galactic</span>
+                                </td>
+                                <td>
+                                    <svg class="gauge-svg" width="60" height="40" viewBox="0 0 70 45">
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-dasharray="57.6 27.2"/>
+                                        <text x="35.0" y="31.0" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#10b981">68</text>
+                                    </svg>
+                                </td>
+                                <td><span class="signal-sell">STRONG SELL</span></td>
+                                <td>$2.43</td>
+                                <td style="color: var(--success)">+12.0%</td>
+                                <td class="score-med">33%</td>
+                                <td class="score-high">32%</td>
+                                <td>7.3×</td>
+                                <td>23%</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="ticker">
+                                    ELAB
+                                    <span>PMGC Holdings</span>
+                                </td>
+                                <td>
+                                    <svg class="gauge-svg" width="60" height="40" viewBox="0 0 70 45">
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-dasharray="55.0 29.8"/>
+                                        <text x="35.0" y="31.0" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#10b981">65</text>
+                                    </svg>
+                                </td>
+                                <td><span class="signal-sell">SELL</span></td>
+                                <td>$5.99</td>
+                                <td style="color: var(--success)">+68.3%</td>
+                                <td class="score-med">27%</td>
+                                <td class="score-med">27%</td>
+                                <td>4.2×</td>
+                                <td>6%</td>
+                                <td>59</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
                                 <td class="ticker">
                                     ANNA
-                                    <span>Anna Holdings Inc</span>
+                                    <span>Anna Holdings</span>
                                 </td>
-                                <td>$4.82</td>
-                                <td class="score-high">87</td>
-                                <td><span class="signal-buy">STRONG BUY</span></td>
-                                <td class="score-high">72%</td>
-                                <td>3.2×</td>
-                                <td>28%</td>
-                                <td>58</td>
-                            </tr>
-                            <tr>
-                                <td class="rank-cell">2</td>
-                                <td class="ticker">
-                                    GME
-                                    <span>GameStop Corp</span>
+                                <td>
+                                    <svg class="gauge-svg" width="60" height="40" viewBox="0 0 70 45">
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-dasharray="48.7 36.1"/>
+                                        <text x="35.0" y="31.0" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#f59e0b">58</text>
+                                    </svg>
                                 </td>
-                                <td>$18.45</td>
-                                <td class="score-high">82</td>
                                 <td><span class="signal-buy">BUY</span></td>
-                                <td class="score-high">68%</td>
-                                <td>2.1×</td>
-                                <td>22%</td>
-                                <td>54</td>
+                                <td>$8.29</td>
+                                <td style="color: var(--danger)">-19.0%</td>
+                                <td class="score-high">55%</td>
+                                <td class="score-low">12%</td>
+                                <td>2.8×</td>
+                                <td>4%</td>
+                                <td>66</td>
                             </tr>
                             <tr>
-                                <td class="rank-cell">3</td>
+                                <td>5</td>
                                 <td class="ticker">
-                                    AMC
-                                    <span>AMC Entertainment</span>
+                                    ONDS
+                                    <span>Ondas Holdings</span>
                                 </td>
-                                <td>$5.23</td>
-                                <td class="score-med">71</td>
+                                <td>
+                                    <svg class="gauge-svg" width="60" height="40" viewBox="0 0 70 45">
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+                                        <path d="M 8.0,35.0 A 27.0,27.0 0 0,1 62.0,35.0" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-dasharray="44.5 40.3"/>
+                                        <text x="35.0" y="31.0" text-anchor="middle" dominant-baseline="middle" font-size="14" font-weight="bold" fill="#f59e0b">53</text>
+                                    </svg>
+                                </td>
                                 <td><span class="signal-buy">BUY</span></td>
-                                <td class="score-med">61%</td>
-                                <td>1.8×</td>
-                                <td>19%</td>
-                                <td>52</td>
-                            </tr>
-                            <tr>
-                                <td class="rank-cell">4</td>
-                                <td class="ticker">
-                                    BBBYQ
-                                    <span>Bed Bath & Beyond</span>
-                                </td>
-                                <td>$0.28</td>
-                                <td class="score-med">64</td>
-                                <td><span class="signal-watch">WATCH</span></td>
-                                <td class="score-med">52%</td>
-                                <td>4.5×</td>
-                                <td>35%</td>
-                                <td>67</td>
-                            </tr>
-                            <tr>
-                                <td class="rank-cell">5</td>
-                                <td class="ticker">
-                                    FFAI
-                                    <span>Faraday Future</span>
-                                </td>
-                                <td>$0.15</td>
-                                <td class="score-med">58</td>
-                                <td><span class="signal-watch">WATCH</span></td>
-                                <td class="score-low">44%</td>
-                                <td>2.3×</td>
-                                <td>12%</td>
-                                <td>48</td>
+                                <td>$9.04</td>
+                                <td style="color: var(--success)">+10.9%</td>
+                                <td class="score-high">47%</td>
+                                <td class="score-low">7%</td>
+                                <td>3.1×</td>
+                                <td>34%</td>
+                                <td>45</td>
                             </tr>
                         </tbody>
                     </table>
